@@ -21,7 +21,7 @@ namespace SamuraiApp.UI
 
         private static void AddSamurai()
         {
-            var samurai = new Samurai { Name = "Sampson" };
+            var samurai = new Samurai { Name = "Test" };
             _context.Samurais.Add(samurai);
             _context.SaveChanges();
         }
